@@ -1,13 +1,60 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  font-size: large;
+  font-family:sans-serif;
+  /* align-items: center; */
+  display: flex;
+  color: beige;
+  justify-content: space-around;
+  background-color: rgb(242, 54, 173);
+  text-align: center;
+align-items: center;
 }
+/* .container{
+width: auto;
+height: 500px;
+background-color: rgba(0, 0, 0, 0.253);
+text-align: center;
+align-items: center;
+box-sizing: border-box;
+} */
+.container:hover{
+  box-shadow: 10px 10px 500px rgb(242, 54, 173) inset;
+}
+p{
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+  font-weight:bold;
+}
+h1{
+  padding: 20px;
+  font-weight: 50px;
+}
+.nameShow{
+  box-sizing: border-box;
+display:flex;
+align-items: center;
+display: flex;
+justify-content: space-around;
+}
+.result{
+  font-size:30px;
+}
+.inputbox{
+  padding: 20px 20px;
+}
+input{
+  padding:10px 10px;
+  margin: 10px 10px;
+  font-size: 20px;
+  box-shadow: inset 2px 1px 10px rgb(255, 71, 240);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.inputbox button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  box-shadow: inset 2px 5px 30px red;
 }
