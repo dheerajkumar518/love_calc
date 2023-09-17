@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 function App() {
 const [Data,setData]=useState(null);
 const [Data1,setData1]=useState(null);
