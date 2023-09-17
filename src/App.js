@@ -8,7 +8,7 @@ const resultcal=()=>{
    if((Data==="Dheeraj" && Data1==="Saritha")||(Data==="Saritha" && Data1==="Dheeraj")||(Data==="dheeraj" && Data1==="saritha")||(Data==="saritha" && Data1==="dheeraj")){
      return setresults(100);
    }
-   if((Data==="Dheeraj" && Data1==="Kajal")||(Data==="Kajal" && Data1==="Dheeraj")||(Data==="dheeraj" && Data1==="kajal")||(Data==="kajal" && Data1==="dheeraj")){
+   if((Data==="Dheeraj" && Data1==="Namita")||(Data==="Namita" && Data1==="Dheeraj")||(Data==="dheeraj" && Data1==="namita")||(Data==="namita" && Data1==="dheeraj")){
     return setresults(100);
   }
 else
